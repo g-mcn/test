@@ -1,0 +1,14 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BBScript : MonoBehaviour
+{
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Player" || other.gameObject.tag == "Obj")
+        {
+            Destroy(this.gameObject); 
+        }
+    }
+}
