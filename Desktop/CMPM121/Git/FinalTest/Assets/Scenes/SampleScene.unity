@@ -1410,7 +1410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHp: {fileID: 2664235400537489656}
   enemy: {fileID: 6007963313403314247, guid: 376ea703fa76578429f4b9c9bf959d03, type: 3}
-  spawnTime: 24
+  spawnTime: 16
   spawnPoints:
   - {fileID: 1875644553}
   - {fileID: 1385822172}
@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHp: {fileID: 2664235400537489656}
   enemy: {fileID: 0}
-  spawnTime: 30
+  spawnTime: 20
   spawnPoints:
   - {fileID: 1963893881}
   - {fileID: 170618241}
@@ -1476,18 +1476,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393903094}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f9f11f1c6fc4a04e96fc37f48e76d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerHp: {fileID: 2664235400537489656}
   enemy: {fileID: 4096585791144208145, guid: ef198ecc853e4ef4cb5bd2ed14f59108, type: 3}
-  spawnTime: 1
+  spawnTime: 8
   spawnPoints:
   - {fileID: 1042006524}
   - {fileID: 1148090195}
-  SurvivalTime: 0
+  SurvivalTime: 8
 --- !u!1001 &1465079266
 PrefabInstance:
   m_ObjectHideFlags: 0
